@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+   
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 4em;
+    margin: 0;
+    text-align: cennter;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FF5722;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.featured-products, .categories, .testimonials, .blog, .contact {
+    padding: 40px 0;
+}
+
+.featured-products h2, .categories h2, .testimonials h2, .blog h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-grid, .category-grid, .testimonial-grid, .blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item, .category-item, .testimonial-item, .blog-item {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.product-item img, .category-item img, .blog-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.testimonial-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.testimonial-item cite {
+    display: block;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.blog-item a {
+    color: #FF5722;
+    text-decoration: none;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.nike{
+   width: 100%;
+   height: 600px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nike {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nike img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+   
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nk h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.nk {
+    font-size: 1.2em;
+    margin: 100px 0 0;
+}
+.pr2{
+    width: 300px;
+    height: 300px;
+}
+
+.search-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+.enlarge-on-hover {
+  
+    color: #333;
+    transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.enlarge-on-hover:hover {
+    transform: scale(1.2);
+    color: #007bff;
+}

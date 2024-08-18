@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Inspired Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">NIKE</h1>
+            <nav>
+                <ul>
+                    <li class="enlarge-on-hover"><a href="men.html">Men</a></li>
+                    <li class="enlarge-on-hover"><a href="women.html">Women</a></li>
+                    <li class="enlarge-on-hover"><a href="kids.html">Kids</a></li>
+                    <li class="enlarge-on-hover"><a href="sale.html">Sale</a></li>
+                    <li class="enlarge-on-hover"><a href="blog.html">Blog</a></li>
+                    <li class="enlarge-on-hover"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="search-container">
+            <form action="/search" method="GET" class="search-form">
+                <input type="text" name="query" placeholder="Search..." class="search-input" required>
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </section>
+    </main>
+    <section class="hero">
+        <div class="container">
+            <img src="imige/nike.png" alt="" class="nike">
+            <h2 class="nk">Just Do It</h2>
+            <p class="nk">Find your greatness with Nike.</p>
+            
+        </div>
+        <div>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="imige/Screenshot 2024-08-15 155729.png" alt="pr2">
+                    <h3>Product 1</h3>
+                    <p>$99.99</p>
+                </div>
+                <div class="product-item">
+                    <img src="imige/Screenshot 2024-08-15 155829.png" alt="Product 2" class="pr2">
+                    <h3>Product 2</h3>
+                    <p>$129.99</p>
+                </div>
+                <div class="product-item">
+                    <img src="imige/Screenshot 2024-08-15 160227.png" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$149.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="categories">
+        <div class="container">
+            <h2>Shop By Category</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="imige/Screenshot 2024-08-15 162150.png" alt="Category 1">
+                    <h3>Running</h3>
+                </div>
+                <div class="category-item">
+                    <img src="imige/Screenshot 2024-08-16 205701.png" alt="Category 2">
+                    <h3>Training</h3>
+                </div>
+                <div class="category-item">
+                    <img src="imige/Screenshot 2024-08-16 205831.png" alt="Category 3">
+                    <h3>Basketball</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <p>"Nike shoes are incredibly comfortable and stylish. Highly recommend!"</p>
+                    <cite>- Alex R.</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"The best sportswear I've ever bought. Worth every penny."</p>
+                    <cite>- Jamie L.</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Excellent quality and fast delivery. Will definitely shop again."</p>
+                    <cite>- Taylor M.</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="blog">
+        <div class="container">
+            <h2>From Our Blog</h2>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <img src="imige/Screenshot 2024-08-16 211239.png" alt="Blog Post 1">
+                    <h3>New Nike Running Shoes Release</h3>
+                    <p>Discover the latest in running technology and design from Nike.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="blog-item">
+                    <img src="imige/Screenshot 2024-08-16 211405.png" alt="Blog Post 2">
+                    <h3>How to Choose the Right Workout Gear</h3>
+                    <p>Tips and advice on selecting the best gear for your workout needs.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nike Inspired Site. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
