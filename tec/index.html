@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Bistro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>geglo Bistro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+       
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to geglo Bistro</h2>
+                <p>Experience fine dining with a touch of elegance. Discover our exquisite menu and make a reservation today.</p>
+                <a href="#menu" class="cta-button">Explore Menu</a>
+                <a href="#reservation" class="cta-button">Make a Reservation</a>
+            </div>
+        </section>
+
+        <section id="featured-dishes">
+            <div class="container">
+                <h2>Featured Dishes</h2>
+                <div class="dish-grid">
+                    <div class="dish-item">
+                        <img src="imge/xhinkali.png" alt="Dish 1">
+                        <h3>Dish 1</h3>
+                        <p>The fillings of khinkali vary with the area. The original recipe, the so-called khevsuruli, consisted of only minced meat (lamb, beef or pork mixed), onions, chili pepper, salt, and cumin.[3] </p>
+                    </div>
+                    <div class="dish-item">
+                        <img src="imge/mwvadi.png" alt="Dish 2">
+                        <h3> Dish 2</h3>
+                        <p>A gourmet experience with every bite, made from the finest local produce.</p>
+                    </div>
+                    <div class="dish-item">
+                        <img src="dish3.jpg" alt="Dish 3">
+                        <h3>Dish 3</h3>
+                        <p>Barbecue is one of the earliest thermally processed foods</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Section -->
+        <section id="reservation">
+            <div class="container">
+                <h2>Make a Reservation</h2>
+                <form action="/submit-reservation" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
+
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" required>
+
+                    <button type="submit">Reserve Table</button>
+                </form>
+            </div>
+        </section>
+
+       
+        <section id="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu-category">
+                    <h3>Starters</h3>
+                    <div class="menu-item">
+                        <img src="starter1.jpg" alt="Starter 1">
+                        <div class="menu-info">
+                            <h4>Starter Dish 1</h4>
+                            <p>Delicious starter to kick off your meal.</p>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="menu-category">
+                    <h3>Main Courses</h3>
+                    <div class="menu-item">
+                        <img src="main1.jpg" alt="Main Course 1">
+                        <div class="menu-info">
+                            <h4>Main Course Dish 1</h4>
+                            <p>Our most popular main course with rich flavors.</p>
+                            <span>$19.99</span>
+                        </div>
+                    </div>
+                    <!-- Repeat menu items as needed -->
+                </div>
+                <!-- Add more categories as needed -->
+            </div>
+        </section>
+
+        <!-- About Us Page -->
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>At Gourmet Bistro, we are passionate about creating memorable dining experiences. Our restaurant combines a cozy atmosphere with an innovative menu, ensuring that every visit is exceptional.</p>
+                <h3>Our Team</h3>
+                <div class="team">
+                    <div class="team-member">
+                        <img src="chef1.jpg" alt="Chef 1">
+                        <h4>Chef John Doe</h4>
+                        <p>Head Chef with over 20 years of culinary experience.</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="chef2.jpg" alt="Chef 2">
+                        <h4>Chef Jane Smith</h4>
+                        <p>Pastry Chef known for her delicious and artistic desserts.</p>
+                    </div>
+                </div>
+                <h3>Our Story</h3>
+                <p>Founded in 2010, Gourmet Bistro has been a staple of fine dining in the city. Our commitment to quality and customer satisfaction sets us apart.</p>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <p><strong>Address:</strong> Tbilisi chavchavadze</p>
+                        <p><strong>Phone:</strong> 555 98 80 29</p>
+                        <p><strong>Email:</strong> gvritishvilig720@gmail.com</p>
+                    </div>
+                 
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>&copy; 2024 Gourmet Bistro | Designed by Your Name</p>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Subscribe to Our Newsletter</h4>
+                <form action="https://www.facebook.com/giorgi.gvrritishvil" method="post">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

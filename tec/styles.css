@@ -1,0 +1,340 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('restaurant-hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    margin: 1em;
+    background-color: #e94e77;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #d73a64;
+}
+
+/* Featured Dishes Section */
+#featured-dishes {
+    padding: 3em 0;
+}
+
+.dish-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.dish-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    flex: 1;
+}
+
+.dish-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.dish-item h3 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+
+.dish-item p {
+    color: #555;
+}
+
+/* Reservation Section */
+#reservation {
+    padding: 3em 0;
+    background-color: #eaeaea;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    margin-top: 0.5em;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.75em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Menu Section */
+#menu {
+    padding: 3em 0;
+}
+
+.menu-category {
+    margin-bottom: 2em;
+}
+
+.menu-category h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.menu-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.menu-item img {
+    max-width: 150px;
+    border-radius: 8px;
+    margin-right: 1em;
+}
+
+.menu-info {
+    flex: 1;
+}
+
+.menu-info h4 {
+    margin: 0;
+}
+
+.menu-info p {
+    color: #555;
+}
+
+.menu-info span {
+    display: block;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+/* About Us Section */
+#about {
+    padding: 3em 0;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.team-member {
+    flex: 1;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.team-member h4 {
+    margin-top: 0.5em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 3em 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-map {
+    flex: 1;
+}
+
+.contact-map iframe {
+    border: 0;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2em 0;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-info p {
+    margin: 0;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+.footer-info ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-info ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-newsletter {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.footer-newsletter h4 {
+    margin-bottom: 0.5em;
+}
+
+.footer-newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-newsletter input {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.footer-newsletter button {
+    padding: 0.75em 1.5em;
+    background-color: #e94e77;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+    background-color: #d73a64;
+}
