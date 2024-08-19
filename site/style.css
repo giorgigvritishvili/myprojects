@@ -1,0 +1,259 @@
+body{
+    background-color:  rgb(62, 54, 52);
+    
+    
+}
+
+.p-1{
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+
+.p-2{
+    width: 100px;
+    height: 50px;
+    background-color:  yellowgreen;
+
+    border: 15px solid;
+    border-radius: 10px;
+    color: grey;
+ 
+    border-radius: 10px;
+
+
+}
+button:hover{
+    background-color: brown;
+}
+.p-3{
+    width: 1000px;
+    height: 150px;
+    color: brown;
+
+}
+
+
+.p-5{
+    
+    height: 10px;
+    border: 10px solid;
+    border-radius: 5px;
+    color: rgb(47, 255, 144);
+    box-sizing: 2 px 2px 2px 2px;
+
+}
+
+.c-3{
+    width: 1500px;
+    height: 150px;
+    background-color:grey;
+}
+
+.c-7{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(28, 222, 161);
+    border-radius: 30px;
+    padding-left: 10px 10 px 20 px 10 px;
+    box-shadow: 5PX 2PX 2PX 5PX;
+
+}
+
+.c-8{
+    border: black  5px solid ;
+    border-radius: 30px;
+    background-color: grey;
+    
+}
+
+
+
+.c-10{
+    margin-left: 80px;
+    border:dotted 7px red ;
+    width: 250px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.c-11{
+    width: 300px;
+    border: 5 px dotted black;
+    margin-left: 60px;
+}
+
+
+.c-15{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(199, 126, 0);
+    margin-left: 1100px;
+    border-radius: 10px;
+}
+
+.c-16{
+    margin-left: 50px;
+    
+    border: 5px solid black;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.f-1{
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 1100px;
+    border: dotted 3px  rgb(0, 255, 166);
+    box-shadow: -5px -5px 25px rgb(137, 137, 137);
+}
+.f-1:active{
+    width: 500px;
+}
+   
+
+
+
+
+.f-3{
+    width: 400px;
+}
+
+* CSS for basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.t-1{
+    width: 300px;
+    border-radius: 120px;
+    margin-right: 1200px;
+    
+}
+
+.t-2{
+    width: 300px;
+    border-radius: 10px;
+    border: dotted red 2px;
+}
+
+.t-4{
+    width: 250px;
+}
+
+.t-7{
+    width: 100px;
+    height: 50px;
+    background-color:  yellowgreen;
+    border: 15px solid;
+    border-radius: 10px;
+    color: grey;
+ 
+    border-radius: 10px;
+}
+
+.p-1{
+    border-radius: 30px;
+   color: black;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+body {
+    font-family: Arial,;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    background-color: rgb(136, 125, 125);
+    
+}
+
+.container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    background-color: #232020; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center; 
+    color : #333333;
+}
+
+.fruit-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.fruit-list li {
+    margin-bottom: 10px; 
+    padding: 10px; 
+    background-color: #f2f2f2; 
+    border-radius: 5px; 
+}
+
+.fruit-list li:hover {
+    background-color: #e0e0e0; 
+    cursor: pointer;
+}
+
+.child{
+    border-radius: 30px;
+
+}
