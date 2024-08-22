@@ -1,0 +1,217 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   padding: 30px 8%;
+   background: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 80;
+}
+.logo{
+    font-size:25px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+
+
+}
+.navbar a{
+    display: inline-block;
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.social-medea{
+    
+    width: 150px;
+    height: 40px;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 20%;
+    font-size: 30px;
+}
+.social-medea a{
+    animation: slideSci 5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    
+}
+.social-medea a:hover{
+    border-color:  white;
+}
+    
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+    align-items: center;
+    padding: 50px 8% 0;
+}
+.home-contact{
+   
+    max-width: 630px;
+}
+.home-contact h1{
+    font-size: 50px;
+    line-height: 1.2;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+   
+}
+.home-contact h3{
+font-size: 40px;
+color: blue;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+.home-contact p{
+    font-size: 16px;
+    margin: 15px 0 30px ;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.6s;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: blue;
+    border: 2px solid blue;
+     border-radius: 6px;
+     box-shadow: 00 10px rgba(0, 0, 0, 0.1);
+     font-size: 16px;
+     color: white;
+     letter-spacing: 1px;
+     text-decoration: none;
+     font-weight: 600;
+     transition: .5s;
+}
+
+.btn:hover{
+    background: transparent;
+    color: blue;
+
+}
+
+.home-img{
+    position: relative;
+    right:  -18%;
+    width: 350px;
+    height:350px;
+    transform: rotate(45deg);
+
+}
+.home-img .rhombus{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 25px solid blue;
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.2);
+    animation: zoomOut 1s ease forwards;
+    animation-delay: 1.6s;
+   
+}
+.home-img .rhombus img{
+    position: absolute;
+    max-width: 600px;
+    transform: rotate(-40deg);
+    top: 110px;
+    left: -270px;
+     
+}
+.home .rhombus2 {
+    position: absolute;
+    top: -25%;
+    right: -25%;
+    width: 700px;
+    height: 700px;
+    background: blue;
+    transform: rotate(45deg);
+    z-index: -1;
+
+}
+@keyframes  slideRight {
+    0%{
+        transform:  translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:  translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes  slideLeft {
+    0%{
+        transform:  translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:  translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes  slideTop {
+    0%{
+        transform:  translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform:  translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes  slideBottom {
+    0%{
+        transform:  translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:  translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes  slideSci {
+    0%{
+        transform:  translateX(100px) rotate(45deg);
+        opacity: 0;
+    }
+    100%{
+        transform:  translateX(0) rotate(45deg);
+        opacity: 1;
+    }
+}
+@keyframes  zoomOut {
+    0%{
+        transform:  scale(1.1);
+        opacity: 0;
+    }
+    100%{
+        transform:  scale(1);
+        opacity: 1;
+    }
+}
+@keyframes  car {
+    0%{
+        transform:  translate(300px , -300px) scale(0) rotate(-45deg);
+        opacity: 0;
+    }
+    100%{
+        transform:  translate(0 , 0) scale(0) rotate(-45deg);
+        opacity: 1;
+    }
+}
